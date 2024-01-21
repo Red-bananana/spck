@@ -1,0 +1,126 @@
+/* *{
+    border: 0.1vh dotted red
+} */
+body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+
+/* -------------------------------------Top bar ------------------------------------- */
+
+/* -Left side- */
+#nav-bar{
+    display: flex;
+    height: 8vh;
+    width: 100%;
+    background-color: transparent;
+    background-color: rgba(241, 78, 78, 0.9);
+    box-shadow: 0 1.6px rgba(193, 174, 174, 0.57);
+    box-shadow: transparent;
+    position: relative;
+    position: fixed;
+}
+#logo img{
+    width: 7vh;
+    margin: 0 0;
+}
+#name{
+    font-size: 3vh;
+    font-family: 'Parisienne', cursive;;
+    margin: 1.8vh 0 4vh 2vh;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/* ------------ */
+
+/* --Right side-- */
+#cart-btn{
+    width:13vh;
+    height: 4.3vh;
+    margin: 2vh 0 0 160vh;
+    border-radius: 1.3vh;
+    border-color: white;
+    font-size: 2.1vh;
+    background: none;
+    color: white;
+}
+#cart-btn img{
+    width: 4.7vh;
+    height: 2.5vh;
+    margin: 0 0.3vh 0 0;
+}
+#cart-btn a{
+    text-decoration: none;
+    font-size: 2.3vh;
+    margin: 0.6vh 0 0 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Parisienne', cursive;
+}
+#goodscount{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 0.4vh 0.5vh;
+    font-size: 1.5vh;
+    background-color: rgb(129, 65, 65);
+    border-radius: 100px;
+    padding: 0 0 0 0;
+    width: 2.3vh;
+}
+#sig-log{
+    display: flex;
+    margin: 2.5vh 0.7vh 0 10vh;
+    font-family: 'Parisienne', cursive;
+}
+#btwls{
+    font-family: none;
+    color: white;
+}
+#log{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 0.5vh 3vh 0;
+    width: fit-content;
+}
+#log:hover{
+    text-decoration: underline;
+}
+#sig{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 0 3vh 0.5vh;
+    width: fit-content;
+}
+#sig:hover{
+    text-decoration: underline;
+}
+/* ------------- */
+
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+/* ------------------------------------Footer------------------------------------ */
+/* ---Contact--- */
+#info{
+    background-color: rgba(241, 78, 78, 0.9);
+    height: 20vh;
+    font-family: 'Parisienne', cursive;
+}
+#info div{
+    color: white;
+    font-size: 2.4vh;
+    margin: 3.1vh 0 0 2vh;
+}
+#info img{
+    width: 2.6vh;
+    margin: 0 1.3vh 0 0;
+}
+/* ---------- */
+
+
+/* --------------------------------------------------------------------------------- */
