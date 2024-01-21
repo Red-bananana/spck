@@ -5,7 +5,7 @@ cart.innerHTML = count
 addcart.addEventListener("click", (e)=> {
         e.preventDefault()  
         count++
-    })
+})
 // addcart.addEventListener("click", (e)=> {
 //     e.preventDefault()  
 //     count++
