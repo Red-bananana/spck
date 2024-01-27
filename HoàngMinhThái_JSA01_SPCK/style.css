@@ -1,0 +1,240 @@
+/* *{
+    border: 0.1vh dotted red
+} */
+body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+
+/* -------------------------------------Top bar ------------------------------------- */
+
+/* -Left side- */
+#nav-bar{
+    display: flex;
+    height: 8vh;
+    width: 100%;
+    background-color: transparent;
+    background-color: rgba(241, 78, 78, 0.9);
+    box-shadow: 0 1.6px rgba(193, 174, 174, 0.57);
+    box-shadow: transparent;
+    position: relative;
+    position: fixed;
+}
+#logo img{
+    width: 7vh;
+    margin: 0 0;
+}
+#name{
+    font-size: 3vh;
+    font-family: 'Parisienne', cursive;;
+    margin: 1.8vh 0 4vh 2vh;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#bar-items{
+    margin-left:3vh;
+    display: flex;
+    color: white;
+    font-family: 'Parisienne', cursive;
+    scroll-behavior: smooth;
+}
+.bar-item{
+    font-size: 2.3vh;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 0 0 3vh;
+    padding: 2.4vh 0 0 0;
+    height: 5.7vh;
+    width: 10vh;
+    text-align: center;
+}
+.bar-item:hover{
+    background-color: rgb(206, 95, 95);
+}
+/* ------------ */
+/* ---middle--- */
+.search {
+    width: 100%;
+    position: absolute;
+    display: flex;
+}
+.searchTerm {
+    width: 100%;
+    border: 3px solid rgba(249, 198, 198, 0.9);
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: rgba(249, 198, 198, 0.9);
+}
+.searchTerm:focus{
+    color: rgba(220, 67, 67, 0.9);
+}
+.searchButton {
+  width: 40px;
+  height: 34px;
+  border: 1px solid rgba(249, 198, 198, 0.9);
+  background: rgba(249, 198, 198, 0.9);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.wrap{
+  width: 30%;
+  position: relative;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hide {
+    display: none;
+  }
+/* ------------ */
+/* --Right side-- */
+#sig-log{
+    display: flex;
+    margin: 2.5vh 0.7vh 0 135vh;
+    font-family: 'Parisienne', cursive;
+}
+#btwls{
+    font-family: none;
+    color: white;
+}
+#log{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 0.5vh 3vh 0;
+    width: fit-content;
+}
+#log:hover{
+    text-decoration: underline;
+}
+#sig{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 0 3vh 0.5vh;
+    width: fit-content;
+}
+#sig:hover{
+    text-decoration: underline;
+}
+#logout{
+    margin: 2.5vh 0.7vh 0 140vh;
+    font-family: 'Parisienne', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 2.3vh;
+}
+/* ------------- */
+
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+/* ------------------------------------Main Body------------------------------------ */
+
+/* ---Title--- */
+#tit{
+    height: 36vh;
+    padding: 25vh 0 0 0;
+    margin: 0vh 0 0 0;
+    /* background-color: rgb(40, 43, 48); */
+    background-image: url(./img/i1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: 'Parisienne', cursive;
+    font-size: 10vh;
+}
+/* ----------- */
+
+/* ---Main--- */
+#goods{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 13vh 0 0 7vh;
+}
+.item{
+    text-decoration: none;
+    border: 0.1vh solid rgb(215, 215, 215);
+    box-shadow: 0.2vh 0.1vh rgb(215, 215, 215);
+    border-radius: 1.5vh;
+    width: 39vh;
+    height: 60vh;
+    margin: 0 10vh 10vh 0;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s;
+}
+.item:hover{
+    width: 40vh;
+    height: 61vh;
+    margin: 0 10vh 5vh 0;
+}
+.item img{
+   height: 50%;
+   border-radius: 1.5vh 1.5vh 0 0;
+}
+.iname{
+    margin: 2.7vh 0 0 0;
+    font-family: 'Parisienne', cursive;
+    color: rgb(35, 35, 35);
+    font-size: 2.5vh;
+    text-align: center;
+    overflow: hidden;
+    height: 7vh;
+}
+.iname:hover{
+    text-decoration: underline;
+}
+.cost{
+    margin: 1.3vh 0 0 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: black;
+}
+.addcart-btn{
+    width: 13.5vh;
+    height: 4.7vh;
+    margin: auto;
+    background-color: transparent;
+    background-color: rgba(241, 78, 78, 0.9);
+    border-radius: 3vh;
+    font-family: 'Parisienne', cursive;
+    color: white;
+    border-color: white;
+}
+.item button:hover{
+    background-color: rgb(213, 46, 46);
+    color: white;
+}
+/* ---------- */
+
+/* ---Contact--- */
+#info{
+    background-color: rgba(241, 78, 78, 0.9);
+    height: 20vh;
+    font-family: 'Parisienne', cursive;
+}
+#info div{
+    color: white;
+    font-size: 2.4vh;
+    margin: 3.1vh 0 0 2vh;
+}
+#info img{
+    width: 2.6vh;
+    margin: 0 1.3vh 0 0;
+}
+/* ---------- */
+
+
+/* --------------------------------------------------------------------------------- */

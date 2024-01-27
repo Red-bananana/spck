@@ -1,0 +1,67 @@
+/* *{
+    border: 1px solid red;
+} */
+body{
+    background-image: url(./img/sig-log-bgr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#login{
+    margin: auto;
+    margin-top: 10vh;
+    padding: 1vh 0 15vh 0;
+    width: 63vh;
+    height: auto;
+    margin-bottom: 10vh;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 1.5vh;
+    box-shadow: black 6px 5px 7px 5px; 
+}
+.btm{
+    background: none;
+    border: none;
+    width: 4vh;
+    margin: 1vh 0 0 1vh;
+}
+.btm img{
+    width: 3vh;
+}
+.tit{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    margin-top: 7.5vh;
+}
+.log-item{
+    margin-left: 5vh;
+    margin-bottom: 3vh;
+}
+.name{
+    font-size: large;
+    padding-bottom: 0.7vh;
+}
+.type{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: #eca53b solid 2px;
+    width: 50vh;
+    height: 4vh;
+    font-size: 2.1vh;
+}
+#btn{
+    margin: 3vh 0 3vh 5vh;
+    align-items: center;
+    background-color: #e9a540;
+    color: white;
+    width: 52vh;
+    height: 4.3vh;
+    font-size: 2.3vh;
+}
+.to-sig{
+    margin-left: 4vh;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
